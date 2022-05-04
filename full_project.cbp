@@ -32,7 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+                <Unit filename="Store.cpp" />
+		<Unit filename="Store.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="process.cpp" />
+		<Unit filename="process.h" />
+                <Unit filename="instruction.txt" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
