@@ -15,8 +15,8 @@ class Store
         vector<string> operand;
 
     public:
-        //Store();
-        //~Store(){}
+        Store();
+        ~Store(){}
         void setOpcode(string );
         void setOperand(vector<string> );
         void printStoreInfo();

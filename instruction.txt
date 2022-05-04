@@ -1,0 +1,10 @@
+
+
+
+la he llo
+li ,a3,5
+
+addi a2,x0,5 #hjhgjhgjh
+subi a7 , x0 ,64
+add a0, x0, x1
+ecall

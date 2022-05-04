@@ -1,6 +1,6 @@
 #include <iostream>
+#include "process.h"
 #include <regex>
-#include <string>
 #include <tuple>
 
 using namespace std;
@@ -55,7 +55,6 @@ vector<string> SplitOperand(string s){
     return gather;
 
 }
-
 
 
 

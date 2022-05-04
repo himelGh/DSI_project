@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iomanip>
 #include "Store.h"
-#include "process.cpp"
+#include "process.h"
 #include <tuple>
 
 
@@ -12,13 +12,13 @@
 
 using namespace std;
 
-string HashPart(string instruction);
+//string HashPart(string instruction);
 
-tuple<string, string> SplitInstruction(string instruction);
+//tuple<string, string> SplitInstruction(string instruction);
 
-vector<string> SplitOperand(string s);
+//vector<string> SplitOperand(string s);
 
-bool Validate(string opcode,int opcount);
+//bool Validate(string opcode,int opcount);
 
 /*
 
@@ -65,7 +65,7 @@ int main()
 
     fstream newfile;
 
-    newfile.open("tpoint.txt",ios::in); //open a file to perform read operation using file object
+    newfile.open("instruction.txt",ios::in); //open a file to perform read operation using file object
 
     if (newfile.is_open()){   //checking whether the file is open
         string instruction;
